@@ -1,4 +1,5 @@
 foundation.webhosting.coop
 ==========================
 
-The Foundation website
+The Webhosting.coop Foundation website
+
