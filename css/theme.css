@@ -2,13 +2,13 @@ html {
 	overflow-x: hidden;
 	overflow-y: auto;
 }
-.whcDarkBlue {
+span.whcDarkBlue {
     color: 0071bb;
 }
-.whcLightBlue {
+span.whcLightBlue {
     color: 00acef;
 }
-.whcGrey {
+span.whcGrey {
     color:545454;
 }
 
