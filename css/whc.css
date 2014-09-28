@@ -1,6 +1,9 @@
-div.whcDarkBlue {
+.whcDarkBlue {
     color: 0071bb;
 }
-div.whcLightBlue {
+.whcLightBlue {
     color: 00acef;
+}
+.whcGrey {
+    color:545454;
 }
