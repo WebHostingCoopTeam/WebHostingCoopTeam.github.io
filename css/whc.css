@@ -14,6 +14,7 @@
 .whcCenter {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 .whc100 {
     width: 100%;
