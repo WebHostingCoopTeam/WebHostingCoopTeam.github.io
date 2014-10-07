@@ -3,4 +3,5 @@ gems:
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap
-redirect_to: foundation.webhosting.coop
+redirect_to:
+  - foundation.webhosting.coop
