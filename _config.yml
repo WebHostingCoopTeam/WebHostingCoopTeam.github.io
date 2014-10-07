@@ -4,5 +4,3 @@ gems:
 - jekyll-redirect-from
 - jekyll-sitemap
 - github-pages
-redirect_to:
-  - foundation.webhosting.coop
