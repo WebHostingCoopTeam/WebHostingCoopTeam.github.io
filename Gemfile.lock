@@ -108,3 +108,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-mentions
+  jekyll-redirect-from
+  jekyll-sitemap
+  jemoji
