@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/WebHostingCoopTeam/WebHostingCoopTeam.github.io.png?label=ready&title=Ready)](https://waffle.io/WebHostingCoopTeam/WebHostingCoopTeam.github.io)
 foundation.webhosting.coop
 ==========================
 
