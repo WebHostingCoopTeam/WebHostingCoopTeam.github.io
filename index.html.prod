@@ -881,6 +881,16 @@
 			})();
 		</script>
 		-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-57615736-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>	
 		 <div style="position:fixed;bottom:0;left:20px;height:40px;z-index:1000;"><a href="http://www.webhosting.coop" title="WebHosting.coop Cooperative Association" target="_blank"><img src="http://cdn.webhosting.coop/whc/images/whc-hostedby.gif" alt="Web Hosting Cooperative Association" /></a></div>
  
 	</body>
