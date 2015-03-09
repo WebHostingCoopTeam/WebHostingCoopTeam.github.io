@@ -101,6 +101,14 @@ button.btn-responsive-nav {
 	display: none;
 }
 
+/* Donate */
+header div.donate {
+	clear: right;
+	float: right;
+	margin-top: -3px;
+	margin-left: 5px;
+	position: relative;
+}
 /* Social Icons */
 header div.social-icons {
 	clear: right;
