@@ -1,4 +1,5 @@
 FROM octohost/jekyll-nginx
+MAINTAINER Josh Cox <josh 'at' webhosting coop>
 
 ENV LANGUAGE en_US.UTF-8
 ENV LANG en_US.UTF-8
