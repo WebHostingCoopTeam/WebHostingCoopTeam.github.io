@@ -13,6 +13,9 @@ render: cprenderin builddocker rundocker cpoctoin rm beep
 
 octo: cpoctoin octopush
 
+serve:
+	jekyll serve -w -B
+
 octopush:
 	git push octo master
 
