@@ -13,8 +13,12 @@ render: cprenderin builddocker rundocker cpoctoin rm beep
 
 octo: cpoctoin octopush
 
+show:
+	chromium /tmp/_site/index.html
+
 serve:
 	jekyll serve -w -B
+	chromium  http://127.0.0.1:4000
 
 octopush:
 	git push octo master
