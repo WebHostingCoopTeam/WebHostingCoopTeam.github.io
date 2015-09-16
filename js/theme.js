@@ -36,7 +36,7 @@ Version: 		2.0
 			$.scrollToTop();
 
 			// Nav Menu
-			this.navMenu();
+      this.navMenu();
 
 			// Header Search
 			this.headerSearch();
@@ -113,53 +113,53 @@ Version: 		2.0
 
 		},
 
-		navMenu: function() {
+    navMenu: function() {
 
-			// Responsive Menu Events
-			var addActiveClass = false;
+       //Responsive Menu Events
+      var addActiveClass = false;
 
-			$("#mainMenu li.dropdown > a, #mainMenu li.dropdown-submenu > a").on("click", function(e) {
+      $("#mainMenu li.dropdown > a, #mainMenu li.dropdown-submenu > a").on("click", function(e) {
 
-				if($(window).width() > 979) return;
+        if($(window).width() > 979) return;
 
-				e.preventDefault();
+        e.preventDefault();
 
-				addActiveClass = $(this).parent().hasClass("resp-active");
+        addActiveClass = $(this).parent().hasClass("resp-active");
 
-				$("#mainMenu").find(".resp-active").removeClass("resp-active");
+        $("#mainMenu").find(".resp-active").removeClass("resp-active");
 
-				if(!addActiveClass) {
-					$(this).parents("li").addClass("resp-active");
-				}
+        if(!addActiveClass) {
+          $(this).parents("li").addClass("resp-active");
+        }
 
-				return;
+        return;
 
-			});
+      });
 
-			// Submenu Check Visible Space
-			$("#mainMenu li.dropdown-submenu").hover(function() {
+       //Submenu Check Visible Space
+      $("#mainMenu li.dropdown-submenu").hover(function() {
 
-				if($(window).width() < 767) return;
+        if($(window).width() < 767) return;
 
-				var subMenu = $(this).find("ul.dropdown-menu");
+        var subMenu = $(this).find("ul.dropdown-menu");
 
-				if(!subMenu.get(0)) return;
+        if(!subMenu.get(0)) return;
 
-				var screenWidth = $(window).width(),
-					subMenuOffset = subMenu.offset(),
-					subMenuWidth = subMenu.width(),
-					subMenuParentWidth = subMenu.parents("ul.dropdown-menu").width(),
-					subMenuPosRight = subMenu.offset().left + subMenu.width();
+        var screenWidth = $(window).width(),
+          subMenuOffset = subMenu.offset(),
+          subMenuWidth = subMenu.width(),
+          subMenuParentWidth = subMenu.parents("ul.dropdown-menu").width(),
+          subMenuPosRight = subMenu.offset().left + subMenu.width();
 
-				if(subMenuPosRight > screenWidth) {
-					subMenu.css("margin-left", "-" + (subMenuParentWidth + subMenuWidth + 10) + "px");
-				} else {
-					subMenu.css("margin-left", 0);
-				}
+        if(subMenuPosRight > screenWidth) {
+          subMenu.css("margin-left", "-" + (subMenuParentWidth + subMenuWidth + 10) + "px");
+        } else {
+          subMenu.css("margin-left", 0);
+        }
 
-			});
+      });
 
-		},
+    },
 
 		stickyMenu: function() {
 

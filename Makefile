@@ -17,7 +17,7 @@ show:
 	chromium /tmp/_site/index.html
 
 serve:
-	jekyll serve -w -B
+	jekyll serve -B
 	chromium  http://127.0.0.1:4000
 
 octopush:
