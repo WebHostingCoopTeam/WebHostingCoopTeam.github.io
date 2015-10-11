@@ -17,6 +17,9 @@ and it will render a static version in your /tmp/, if you instead you have jekyl
 
 if you have not you might look at the docs for [Jekyll](https://jekyllrb.com/)
 
+jekyll can be installed on Windows, Mac OS X, Linux, Unix, and other platforms
+http://jekyllrb.com/docs/installation/
+
 http://webhostingcoopteam.github.io/
 
 [![Stories in Ready](https://badge.waffle.io/WebHostingCoopTeam/WebHostingCoopTeam.github.io.png?label=ready&title=Ready)](https://waffle.io/WebHostingCoopTeam/WebHostingCoopTeam.github.io)
