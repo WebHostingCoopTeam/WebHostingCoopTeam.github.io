@@ -6,9 +6,9 @@ ENV LANG en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
 
 WORKDIR /srv/www
+RUN gem install kramdown
 
 ADD . /srv/www/
-RUN gem install kramdown
 RUN jekyll build
 
 ADD ./start.sh /start.sh
