@@ -12,8 +12,6 @@
   <!-- Web Fonts  -->
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
 
-  <!-- WHC CSS -->
-  <link rel="stylesheet" href="css/whc.css">
 
   <!-- Libs CSS -->
   <link rel="stylesheet" href="css/bootstrap.css">
@@ -41,6 +39,9 @@
 
   <!-- Responsive CSS -->
   <link rel="stylesheet" href="css/theme-responsive.css" />
+
+  <!-- WHC CSS -->
+  <link rel="stylesheet" href="css/whc.css">
 
   <!-- Favicons -->
   <!-- Favicons -->
@@ -94,13 +95,13 @@
 
 						<nav class="nav-main">
 							<ul class="nav nav-pills nav-main" id="mainMenu">
-								<li class="dropdown active">
+								<li class="dropdown">
 									<a class="dropdown-toggle" href="/">
 										Home</a>
 								</li>
-								<li>
-									<a href="/">Mission</a>
-								</li>
+								<!--<li>-->
+									<!--<a href="/">Mission</a>-->
+								<!--</li>-->
 								<li>
 									<a href="/board.html">Board</a>
 								</li>
@@ -209,17 +210,14 @@
       <div class="info">
         <p><strong>Become a donor today.</strong><br>As a small grassroots organization, know that every dollar will have an immense impact on our ability to continue working towards our mission.</p>
         
-        <div class="donorbox text-center">
-        </div>
-        <hr>
-        <p class="text-warning">Sorry, online donations are not available at this time <i class="fa fa-frown-o"></i></p>
-        <hr>
+          <div class="donorbox text-center">
+            <iframe src="https://donorbox.org/embed/save-the-world" height="600px" width="100%" style="max-width:500px; min-width:310px" seamless="seamless" name="donorbox" frameborder="0" scrolling="no"></iframe>
+          </div>
+          
         
       </div><!--//info-->
     </div><!--//donate-inner-->
   </div><!--//container-->
-</section><!--//how-->
-<section id="donate" class="donate section text-center">
   <div class="container">
     <div class="donate-inner">
       <br>
@@ -260,10 +258,12 @@
       </div><!--//cta-container-->
     </div><!--//donate-inner-->
   </div><!--//container-->
+</section><!--//how-->
 
                 </div>
             </div>
         </div>
+    </body>
       ﻿			<footer class="short" id="footer">
 				<div class="container">
 					<div class="row">
@@ -374,5 +374,4 @@
     </script>	
 		 <div style="position:fixed;bottom:0;left:20px;height:40px;z-index:1000;"><a href="http://www.webhosting.coop" title="WebHosting.coop Cooperative Association" target="_blank"><img src="http://cdn.webhosting.coop/whc/images/whc-hostedby.gif" alt="Web Hosting Cooperative Association" /></a></div>
 
-    </body>
 </html>
